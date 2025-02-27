@@ -21,6 +21,10 @@ The following official documentation is used to retrieve information:
 ## Technologies Used
 - **Python**: Backend programming language.
 - **Flask**: Web framework to create the chatbot interface.
-- **NLTK**: Natural Language Processing for query analysis.![Screenshot 2025-02-27 155002](https://github.com/user-attachments/assets/2cd5c203-ba03-433f-bab8-4e2d75e23711)
-
+- **NLTK**: Natural Language Processing for query analysis.
 - **HTML/CSS/JavaScript**: Frontend for creating the chatbot user interface.
+
+-   HOW THE PAGE LOOK
+-   ![Screenshot 2025-02-27 155002](https://github.com/user-attachments/assets/ebd92049-8515-4339-bb97-f250f2481707)
+
+-   
