@@ -1,0 +1,68 @@
+body {
+    font-family: Arial, sans-serif;
+    background-image: url('https://www.saifety.ai/wp-content/uploads/2023/08/AI-Chatbot.jpg');
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+    padding: 20px;
+}
+
+.chatbox {
+    width: 300px;
+    margin: auto;
+    background-color: rgba(255, 255, 255, 0.9);
+    border: 1px solid #ccc;
+    padding: 10px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+.chat-log {
+    max-height: 400px;
+    overflow-y: scroll;
+    margin-bottom: 10px;
+}
+
+.message {
+    padding: 5px 10px;
+    margin: 5px 0;
+    border-radius: 5px;
+    display: flex;
+    align-items: center;
+}
+
+.user-message {
+    background-color: #e0f7fa;
+    align-self: flex-end;
+    text-align: right;
+    border-left: 4px solid #007bff;
+}
+
+.bot-message {
+    background-color: #f1f1f1;
+    align-self: flex-start;
+    text-align: left;
+    border-right: 4px solid #28a745;
+}
+
+input[type="text"] {
+    width: 75%;
+    padding: 10px;
+    margin-right: 10px;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+}
+
+button {
+    padding: 10px 20px;
+    background-color: #007bff;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+button:hover {
+    background-color: #0056b3;
+}
